@@ -1,0 +1,25 @@
+.auth__form {
+     background: var(--primary-color);
+     padding: 40px;
+     border-radius: 5px;
+     input {
+          width: 100%;
+          padding: 5px 10px;
+          border: 1px solid var(--card-bg-02);
+          border-radius: 10px;
+     }
+     [type="file"] {
+          color: #fff;
+     }
+     p {
+          margin-top: 30px;
+     }
+     p a {
+          color: #fff;
+     }
+}
+.login__btn {
+     background-color: #fff;
+     color: var(--primary-color);
+     font-weight: 600;
+}
